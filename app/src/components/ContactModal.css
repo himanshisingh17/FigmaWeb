@@ -1,0 +1,25 @@
+.contact-modal {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+}
+
+.contact-modal[data-open="true"] {
+  display: block;
+}
+
+body .contact-modal[data-open="true"] {
+  overflow: hidden;
+}
+
+.contact-modal[data-open="false"] {
+  display: none;
+}
+
+.contact-modal-content {
+  overflow: auto;
+}

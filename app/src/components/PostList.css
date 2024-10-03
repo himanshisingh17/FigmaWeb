@@ -1,0 +1,25 @@
+.contact-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-card {
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+}
+
+.contact-card .contact-card__details {
+  flex-grow: 1;
+}
+
+.contact-card__details p {
+  margin-bottom: 4px;
+}
+
+.contact-card button {
+  align-self: flex-start;
+}
+
